@@ -30,8 +30,6 @@ class MyView: UIView {
 
 class ViewController: UIViewController, SettingsForButtonDelegate {
 
-    
-
     var titleColor: UIColor = .black
     var myBackgroundColor: UIColor = .yellow
 
@@ -45,7 +43,5 @@ class ViewController: UIViewController, SettingsForButtonDelegate {
     func writeAboutButton(_ button: UIButton) {
         print("\(String(describing: button.currentTitle))")
     }
-    
-    
 }
 
