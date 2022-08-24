@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork14_1_Karina" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FST-K6-HGg" customClass="MyView" customModule="HomeWork14_1_Karina" customModuleProvider="target">
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KO9-eL-hqd">
+                                        <rect key="frame" x="70" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Nap-HI-FyW"/>
+                                            <constraint firstAttribute="width" constant="60" id="c1Y-os-w0j"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Up"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="FST-K6-HGg" eventType="touchUpInside" id="RVh-RX-uOh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-rO-Cmm">
+                                        <rect key="frame" x="70" y="140" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="9YY-kY-uc3"/>
+                                            <constraint firstAttribute="width" constant="60" id="OiO-AL-oah"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Down"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="FST-K6-HGg" eventType="touchUpInside" id="gvA-Hc-zAU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqr-tr-5Mx">
+                                        <rect key="frame" x="0.0" y="70" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Cm1-01-uzp"/>
+                                            <constraint firstAttribute="height" constant="60" id="VDs-6G-Lm6"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Left"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="FST-K6-HGg" eventType="touchUpInside" id="xuI-EN-scO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUE-Gc-mwH">
+                                        <rect key="frame" x="140" y="70" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="T9G-50-CbA"/>
+                                            <constraint firstAttribute="width" constant="60" id="xpn-ga-9im"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Right"/>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="FST-K6-HGg" eventType="touchUpInside" id="Di6-mw-RQc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YML-YJ-0k5">
+                                        <rect key="frame" x="70" y="70" width="60" height="60"/>
+                                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Suo-H5-V7q"/>
+                                            <constraint firstAttribute="height" constant="60" id="nU1-le-nnt"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Settings"/>
+                                        <connections>
+                                            <action selector="settingsButton:" destination="FST-K6-HGg" eventType="touchUpInside" id="umt-95-AA4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                <constraints>
+                                    <constraint firstItem="KO9-eL-hqd" firstAttribute="centerX" secondItem="FST-K6-HGg" secondAttribute="centerX" id="0nt-5M-lKz"/>
+                                    <constraint firstAttribute="height" constant="200" id="9VN-7B-SIo"/>
+                                    <constraint firstItem="yUE-Gc-mwH" firstAttribute="centerY" secondItem="FST-K6-HGg" secondAttribute="centerY" id="BZI-jQ-phG"/>
+                                    <constraint firstItem="pCy-rO-Cmm" firstAttribute="centerX" secondItem="FST-K6-HGg" secondAttribute="centerX" id="Bhq-n4-Zvg"/>
+                                    <constraint firstItem="YML-YJ-0k5" firstAttribute="centerX" secondItem="FST-K6-HGg" secondAttribute="centerX" id="La9-kP-uAM"/>
+                                    <constraint firstItem="Yqr-tr-5Mx" firstAttribute="leading" secondItem="FST-K6-HGg" secondAttribute="leading" id="LdO-JT-Vdl"/>
+                                    <constraint firstItem="KO9-eL-hqd" firstAttribute="top" secondItem="FST-K6-HGg" secondAttribute="top" id="Sg9-FO-GDp"/>
+                                    <constraint firstItem="Yqr-tr-5Mx" firstAttribute="centerY" secondItem="FST-K6-HGg" secondAttribute="centerY" id="pkG-yB-E5D"/>
+                                    <constraint firstAttribute="trailing" secondItem="yUE-Gc-mwH" secondAttribute="trailing" id="q0c-O9-ChH"/>
+                                    <constraint firstAttribute="bottom" secondItem="pCy-rO-Cmm" secondAttribute="bottom" id="vse-EE-caI"/>
+                                    <constraint firstItem="YML-YJ-0k5" firstAttribute="centerY" secondItem="FST-K6-HGg" secondAttribute="centerY" id="wGm-qW-5qh"/>
+                                    <constraint firstAttribute="width" constant="200" id="ySi-1P-OMS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FST-K6-HGg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Axk-Dr-q7s"/>
+                            <constraint firstItem="FST-K6-HGg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GKN-cx-0tP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="viewForButton" destination="FST-K6-HGg" id="IaR-8C-Wqt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
